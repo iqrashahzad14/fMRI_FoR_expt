@@ -1,6 +1,12 @@
+**Unit tests and coverage**
+
 [![](https://img.shields.io/badge/Octave-CI-blue?logo=Octave&logoColor=white)](https://github.com/cpp-lln-lab/template_PTB_experiment/actions)
 ![](https://github.com/Remi-gau/template_matlab_analysis/workflows/CI/badge.svg)
+
 [![codecov](https://codecov.io/gh/Remi-gau/template_matlab_analysis/branch/master/graph/badge.svg)](https://codecov.io/gh/cpp-lln-lab/template_PTB_experiment)
+
+**Miss_hit linter**
+
 [![Build Status](https://travis-ci.com/Remi-gau/template_matlab_analysis.svg?branch=master)](https://travis-ci.com/cpp-lln-lab/template_PTB_experiment)
 
 # Template repository for matlab analysis project
@@ -35,7 +41,7 @@
 ├── .travis.yml # where you define the continuous integration done by Travis
 ├── LICENSE
 ├── README.md
-├── requirements.txt # list of python packages used in this repo: to install `pip install -r requirements.txt`
+├── environment.yml # a simple environment for anything python related in this repo
 ├── miss_hit.cfg # configuration file for the matlab miss hit linter
 └── initEnv.m # a .m file to set up your project (adds the right folder to the path)
 ```

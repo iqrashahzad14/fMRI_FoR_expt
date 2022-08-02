@@ -1,1 +1,1 @@
-# External libraries and git submodules
+# Documentation
